@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+.header__container{
+    width: 100%;
+    min-width: 320px;
+   
+ 
+}
+.header__hero-img{
+
+    background-image: url('./img/pexels-aleksey-kuprikov-3493805.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__contain-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px;
+    align-items: center;
+    justify-items: stretch;
+
+}
+.header__logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    padding-left: 40px;
+}
+.header__logo span{
+    color: #b8e02f;
+}
+.header__nav .header__list{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.header__list li{
+    list-style: none;
+}
+.header__list li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+.header__list .nav-border{
+    border: 2px solid #56a744;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+.header__description{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 400px;
+}
+.header__description .description{
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+}
+.header_title{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+.header__button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 38px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, #37e1ab, #35db97, #3ad582, #41ce6c, #4ac755);
+
+}
+.header__description .header__info{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+.main__container{
+    width: 100%;
+
+
+}
+.main__subtitle{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main__container-description{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px,600px));
+    grid-template-rows: 400px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.main__info{
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: initial;
+    padding: 20px;
+}
+.main__img .main_fox{
+    width: 400px;
+    
+}
